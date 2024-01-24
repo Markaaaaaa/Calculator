@@ -346,7 +346,7 @@ public class NewJFrame1 extends javax.swing.JFrame {
 
     private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         System.exit(0);
-
+// this is to exit the code
         // TODO add your handling code here:
     }                                         
 
@@ -358,7 +358,7 @@ public class NewJFrame1 extends javax.swing.JFrame {
          value2=0;
          operator="";
     }                                         
-
+// this is to clear the text field and reset the operator
     private void txtResultActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
     }                                         
@@ -366,138 +366,152 @@ public class NewJFrame1 extends javax.swing.JFrame {
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
         String res = txtResult.getText();
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty()) //this is if the text field is empty you add a 7
             txtResult.setText("7");
         else if(res.contains("+") || res.contains("-") || res.contains("*") || res.contains("/") || res.contains("%"))
         {
+            // when the text field contains any operator then you display the number after the operator or number.
+
             txtResult.setText(txtResult.getText() + "7");
             value2 = Integer.parseInt(value2 + "7");
         }
+         // Then you make the string to integer with value2 = integer.parseInt(value2 + “Any number”);
         else
             txtResult.setText(txtResult.getText()+ "7");
     }                                        
+       // if it is not empty then you display the number after the number before
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
         String res = txtResult.getText();
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty()) //this is if the text field is empty you add a 8
             txtResult.setText("8");
         else if(res.contains("+") || res.contains("-") || res.contains("*") || res.contains("/") || res.contains("%"))
         {
+              // when the text field contains any operator then you display the number after the operator or number.
             txtResult.setText(txtResult.getText() + "8");
             value2 = Integer.parseInt(value2 + "8");
         }
+            // Then you make the string to integer with value2 = integer.parseInt(value2 + “Any number”);
         else
             txtResult.setText(txtResult.getText()+ "8");
     }                                        
-
+  // if it is not empty then you display the number after the number before
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
         String res = txtResult.getText();
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty())//this is if the text field is empty you add a 9
             txtResult.setText("9");
         else if(res.contains("+") || res.contains("-") || res.contains("*") || res.contains("/") || res.contains("%"))
         {
+              // when the text field contains any operator then you display the number after the operator or number.
             txtResult.setText(txtResult.getText() + "9");
             value2 = Integer.parseInt(value2 + "9");
-        }
+        }// Then you make the string to integer with value2 = integer.parseInt(value2 + “Any number”);
         else
             txtResult.setText(txtResult.getText()+ "9");
-    }                                        
+    }        // if it is not empty then you display the number after the number before                                  
 
     private void jButton0ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
         String res = txtResult.getText();
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty())//this is if the text field is empty you add a 0
             txtResult.setText("0");
         else if(res.contains("+") || res.contains("-") || res.contains("*") || res.contains("/") || res.contains("%"))
         {
+              // when the text field contains any operator then you display the number after the operator or number.
             txtResult.setText(txtResult.getText() + "0");
             value2 = Integer.parseInt(value2 + "0");
-        }
+        }// Then you make the string to integer with value2 = integer.parseInt(value2 + “Any number”);
         else
             txtResult.setText(txtResult.getText()+ "0");
-    }                                        
+    }         // if it is not empty then you display the number after the number before                                 
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
         String res = txtResult.getText();
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty())//this is if the text field is empty you add a 1
             txtResult.setText("1");
         else if(res.contains("+") || res.contains("-") || res.contains("*") || res.contains("/") || res.contains("%"))
         {
+              // when the text field contains any operator then you display the number after the operator or number.
             txtResult.setText(txtResult.getText() + "1");
             value2 = Integer.parseInt(value2 + "1");
-        }
+        }// Then you make the string to integer with value2 = integer.parseInt(value2 + “Any number”);
         else
             txtResult.setText(txtResult.getText()+ "1");
-        
+          // if it is not empty then you display the number after the number before
     }                                        
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
         String res = txtResult.getText();
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty())//this is if the text field is empty you add a 3
             txtResult.setText("3");
         else if(res.contains("+") || res.contains("-") || res.contains("*") || res.contains("/") || res.contains("%"))
         {
+              // when the text field contains any operator then you display the number after the operator or number.
             txtResult.setText(txtResult.getText() + "3");
             value2 = Integer.parseInt(value2 + "3");
-        }
+        }// Then you make the string to integer with value2 = integer.parseInt(value2 + “Any number”);
         else
             txtResult.setText(txtResult.getText()+ "3");
-    }                                        
+    }           // if it is not empty then you display the number after the number before                               
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
         String res = txtResult.getText();
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty())//this is if the text field is empty you add a 4
             txtResult.setText("4");
         else if(res.contains("+") || res.contains("-") || res.contains("*") || res.contains("/") || res.contains("%"))
         {
+              // when the text field contains any operator then you display the number after the operator or number.
             txtResult.setText(txtResult.getText() + "4");
             value2 = Integer.parseInt(value2 + "4");
-        }
+        }// Then you make the string to integer with value2 = integer.parseInt(value2 + “Any number”);
         else
             txtResult.setText(txtResult.getText()+ "4");
-    }                                        
+    }                               // if it is not empty then you display the number after the number before           
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
         String res = txtResult.getText();
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty())//this is if the text field is empty you add a 5
             txtResult.setText("5");
         else if(res.contains("+") || res.contains("-") || res.contains("*") || res.contains("/") || res.contains("%"))
-        {
+        {  // when the text field contains any operator then you display the number after the operator or number.
             txtResult.setText(txtResult.getText() + "5");
             value2 = Integer.parseInt(value2 + "5");
-        }
+        }// Then you make the string to integer with value2 = integer.parseInt(value2 + “Any number”);
         else
             txtResult.setText(txtResult.getText()+ "5");
-    }                                        
+    }                                     // if it is not empty then you display the number after the number before     
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
         String res = txtResult.getText();
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty())//this is if the text field is empty you add a 6
             txtResult.setText("6");
         else if(res.contains("+") || res.contains("-") || res.contains("*") || res.contains("/") || res.contains("%"))
         {
+              // when the text field contains any operator then you display the number after the operator or number.
             txtResult.setText(txtResult.getText() + "6");
             value2 = Integer.parseInt(value2 + "6");
-        }
+        }// Then you make the string to integer with value2 = integer.parseInt(value2 + “Any number”);
         else
             txtResult.setText(txtResult.getText()+ "6");
-    }                                        
+    }                 // if it is not empty then you display the number after the number before                         
 
     private void btnMultiplicationActionPerformed(java.awt.event.ActionEvent evt) {                                                  
         // TODO add your handling code here:
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty()) //if it is empty you can not add a operator
            return;
         else
             value1 = Integer.parseInt(txtResult.getText());
+        // Then you make the string before operator to integer with value1 = integer.parseInt(value2 + “Any number”);
             txtResult.setText( txtResult.getText() + " " + btnMultiplication.getText() );
             operator = "mul";
+        //this is to add operator to textfield
     }                                                 
 
     private void btnMinusActionPerformed(java.awt.event.ActionEvent evt) {                                         
@@ -543,10 +557,10 @@ public class NewJFrame1 extends javax.swing.JFrame {
              answer=value1/value2;
          else 
              answer=value1%value2;
-        
-         String Result = Double.toString(answer);
+        // all of this is to calculate the final answer based on what operator you use
+         String Result = Double.toString(answer); // double to string
          txtResult.setText(Result);
-    }                                         
+    }                         //to show result in text field              
 
     private void jButton75ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         if(txtResult.getText().isEmpty())
@@ -566,16 +580,17 @@ public class NewJFrame1 extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
         String res = txtResult.getText();
-        if(txtResult.getText().isEmpty())
+        if(txtResult.getText().isEmpty())//this is if the text field is empty you add a 2
             txtResult.setText("2");
         else if(res.contains("+") || res.contains("-") || res.contains("*") || res.contains("/") || res.contains("%"))
         {
+              // when the text field contains any operator then you display the number after the operator or number.
             txtResult.setText(txtResult.getText() + "2");
             value2 = Integer.parseInt(value2 + "2");
-        }
+        }// Then you make the string to integer with value2 = integer.parseInt(value2 + “Any number”);
         else
             txtResult.setText(txtResult.getText()+ "2");
-    }                                        
+    }                                // if it is not empty then you display the number after the number before          
 
     /**
      * @param args the command line arguments
